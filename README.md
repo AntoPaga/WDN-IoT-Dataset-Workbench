@@ -2,7 +2,7 @@
 
 WDN refers to the collection of pipes, pumps, valves, junctions, tanks, and reservoirs.
 
-![Alt text](dataset-network-epanet-src\NET_6_topology.png "WDN TOPOLOGY")
+![Alt text](dataset-network-epanet-src/NET_6_topology.png "WDN TOPOLOGY")
 
 The considered network provides 4419 nodes, 3 reservoirs, and 5066 pipes. Each node is configured with a specific base demand pattern which represents the water request of the user during the whole simulation changing at a step size of an hour. 
 
