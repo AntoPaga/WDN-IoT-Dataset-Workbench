@@ -1,0 +1,51 @@
+experiment_name = "fossolo_pattern-240h"
+input_file = "fossolo.inp"
+target = "pressure"
+output_folder = "data"
+verbose = true
+seed = 42
+
+[options]
+noise = 0.0
+
+[options.time]
+duration = 2592000
+timestep = 3600
+
+[options.hydraulic]
+demand_multiplier = 0.01
+pattern = "pattern-240h"
+demand_model = "PDA"
+minimum_pressure = 0.0
+required_pressure = 0.1
+trials = 400
+
+[visualization]
+network = false
+demands = true
+correlations = false
+absolute_correlations = false
+graphbased_features = false
+
+[training]
+train_test_seed = 42
+train_ratio = 0.8
+batch_size = 256
+training_workers = 4
+loss = "mse"
+optimizer = "adam"
+transform = "minmax"
+epochs = 100
+patience = 10
+visualize = false
+noise_on_features = 0.0
+noise_on_target = 0.0
+
+[model]
+name = "MLP"
+hidden_layers = [
+    128,
+    64,
+    32,
+]
+dropout = 0.1

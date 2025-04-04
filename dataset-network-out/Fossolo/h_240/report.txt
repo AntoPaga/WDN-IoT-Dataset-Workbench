@@ -1,0 +1,16 @@
+FOSSOLO_PATTERN-240H Report
+Network: Foss
+Number of Nodes: 37
+Number of Links: 58
+-----------------------------
+Simulation Details:
+  Duration: 30.0 days (720.0 hours)
+  Simulation Length: 721h
+  Report Timestep: 3600 seconds
+  Hydraulic Timestep: 3600 seconds
+  Pattern Timestep: 3600 seconds
+  Pattern Name: pattern-240h
+  Headloss Formula: H-W
+  Demand Model: PDA
+  Minimum Pressure: 0.0 meters
+  Required Pressure: 0.1 meters
