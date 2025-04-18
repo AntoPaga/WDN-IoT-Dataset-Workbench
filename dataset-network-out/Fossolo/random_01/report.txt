@@ -1,0 +1,16 @@
+FOSSOLO_PATTERN-RANDOM-01 Report
+Network: Foss
+Number of Nodes: 37
+Number of Links: 58
+-----------------------------
+Simulation Details:
+  Duration: 300.0 days (7200.0 hours)
+  Simulation Length: 7201h
+  Report Timestep: 3600 seconds
+  Hydraulic Timestep: 3600 seconds
+  Pattern Timestep: 3600 seconds
+  Pattern Name: pattern-random-01
+  Headloss Formula: H-W
+  Demand Model: PDA
+  Minimum Pressure: 0.0 meters
+  Required Pressure: 0.1 meters
